@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Changa+One|Days+One|Tauri&display=swap');
+html, body {
+	background:  linear-gradient(90deg, rgba(241,241,241,1) 0%, rgba(255,255,255,1) 48%, rgba(238,238,238,1) 100%);
+	height: 100%;
+}
+
+h5 {
+	color: #1E90FF;
+	font-size: 17pt;
+	 font-weight: bold;
+	 border-bottom: solid #1E90FF 1px;
+	 margin-bottom: 1rem;
+	 margin-top: 2rem;
+	 font-family: sans-serif;
+}
+
+h6 {
+	color: rgb(80, 80, 80);
+	 font-size: 1.3em;
+	 font-family: 'Tauri', sans-serif;
+	 margin: 0px;
+	 margin-top: 7px;
+}
+
+.container-fluid {
+	text-align: center;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	overflow-x: hidden;
+}
+
+#logo{
+	height: 8rem;
+}
+#vs{
+	font-weight: bold;
+		color: rgb(180, 180, 180);
+	 font-size: 0.9em;
+	 font-family: 'Tauri', sans-serif;
+
+}
+
+.matches {
+	font-weight: lighter;
+	-webkit-box-shadow: 10px 15px 20px -13px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 10px 15px 20px -13px rgba(0, 0, 0, 0.1);
+	box-shadow: 10px 15px 20px -13px rgba(0, 0, 0, 0.1);
+}
+@media (min-width: 0px) {
+	h6 {
+		 font-size: 0.95em;
+	}
+}
+
+@media (min-width: 768px) {
+	h6 {
+		 font-size: 1.05em;
+	}
+}
+
+@media (min-width: 992px) {
+	h6 {
+		 font-size: 1.15em;
+	}
+}
